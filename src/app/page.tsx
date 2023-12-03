@@ -30,7 +30,7 @@ const Home = () => {
             <h2 className="text-2xl">I build frontend for web applications.</h2>
           </div>
           <div className="bg-[#6644cc] p-3 rounded-b-lg flex gap-2 justify-evenly items-center">
-            <a title="Linked In" href="mailto:sohaib.najar@gmail.com">
+            <a title="Mail" href="mailto:sohaib.najar@gmail.com">
               <MdMailOutline fontSize={40} />
             </a>
             <a
@@ -41,7 +41,7 @@ const Home = () => {
               <FaLinkedin fontSize={40} />
             </a>
             <a
-              title="Linked In"
+              title="Discord"
               href="https://discord.com/users/977852503070740490"
               target="_blank"
             >
@@ -54,23 +54,38 @@ const Home = () => {
             <h2 className="text-2xl">Skills</h2>
           </div>
           <div className="bg-[#2299bb] p-3 rounded-b-lg flex gap-2 justify-evenly items-center">
-            <div className="flex flex-col justify-center items-center">
+            <div
+              title="HTML"
+              className="flex flex-col justify-center items-center"
+            >
               <FaHtml5 fontSize={40} />
               <p>HTML</p>
             </div>
-            <div className="flex flex-col justify-center items-center">
+            <div
+              title="CSS"
+              className="flex flex-col justify-center items-center"
+            >
               <FaCss3Alt fontSize={40} />
               <p>CSS</p>
             </div>
-            <div className="flex flex-col justify-center items-center">
+            <div
+              title="JS"
+              className="flex flex-col justify-center items-center"
+            >
               <RiJavascriptFill fontSize={40} />
               <p>JS</p>
             </div>
-            <div className="flex flex-col justify-center items-center">
+            <div
+              title="React Js"
+              className="flex flex-col justify-center items-center"
+            >
               <FaReact fontSize={40} />
               <p>React Js</p>
             </div>
-            <div className="flex flex-col justify-center items-center">
+            <div
+              title="Flutter"
+              className="flex flex-col justify-center items-center"
+            >
               <RiFlutterFill fontSize={40} />
               <p>Flutter</p>
             </div>
